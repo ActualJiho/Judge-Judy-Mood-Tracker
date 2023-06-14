@@ -48,5 +48,8 @@
     "semi": false,
     "singleQuote": true
   },
-  "browserslist": "> 2%, not dead"
+  "browserslist": "> 2%, not dead",
+  "dependencies": {
+    "@auth0/auth0-react": "^2.1.0"
+  }
 }

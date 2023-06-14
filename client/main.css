@@ -3,3 +3,38 @@ body {
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
 }
+
+.judy {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 85%;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 500ms ease;
+}
+
